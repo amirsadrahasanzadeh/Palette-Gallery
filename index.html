@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,27 +11,29 @@
     <nav>
       <h2>🎨 Palette Gallery</h2>
 
-      <input id="search" placeholder="جستجو..." />
+      <input id="search" placeholder="Search..." />
 
       <div>
-        <a href="#">خانه</a>
-        <a href="#p">پالت‌ها</a>
+        <a href="#">Home</a>
+        <a href="#p">Palettes</a>
       </div>
     </nav>
 
     <div class="hero">
-      <h1>پالت‌های واقعی با پیش‌نمایش</h1>
-      <p>روی هر رنگ بزن تا کپی بشه</p>
+      <h1>Real Color Palettes with Live Preview</h1>
+      <p>Click on any color to copy HEX code</p>
+
       <div
         class="scroll"
         onclick="document.getElementById('p').scrollIntoView()"
       >
-        👇 شروع
+        👇 Start
       </div>
     </div>
 
     <div class="section" id="p">
       <div class="grid">
+        <!-- Autumn Ember -->
         <div class="card">
           <div class="colors">
             <div
@@ -63,16 +65,19 @@
               <span class="hex">#e8c581</span>
             </div>
           </div>
+
           <iframe
             class="preview"
             src="pages/AutumnEmber/AutumnEmber.html"
           ></iframe>
+
           <div class="info">
             <span>Autumn Ember</span>
             <span class="heart" onclick="like(this)">❤️</span>
           </div>
         </div>
 
+        <!-- Royal Horizon -->
         <div class="card">
           <div class="colors">
             <div
@@ -104,16 +109,19 @@
               <span class="hex">#b9915e</span>
             </div>
           </div>
+
           <iframe
             class="preview"
             src="pages/RoyalHorizon/RoyalHorizon.html"
           ></iframe>
+
           <div class="info">
             <span>Royal Horizon</span>
             <span class="heart" onclick="like(this)">❤️</span>
           </div>
         </div>
 
+        <!-- Emerald Grove -->
         <div class="card">
           <div class="colors">
             <div
@@ -145,16 +153,19 @@
               <span class="hex">#fbf6f0</span>
             </div>
           </div>
+
           <iframe
             class="preview"
             src="pages/EmeraldGrove/EmeraldGrove.html"
           ></iframe>
+
           <div class="info">
             <span>Emerald Grove</span>
             <span class="heart" onclick="like(this)">❤️</span>
           </div>
         </div>
 
+        <!-- Royal Crimson -->
         <div class="card">
           <div class="colors">
             <div
@@ -186,16 +197,19 @@
               <span class="hex">#002f49</span>
             </div>
           </div>
+
           <iframe
             class="preview"
             src="pages/RoyalCrimson/RoyalCrimson.html"
           ></iframe>
+
           <div class="info">
             <span>Royal Crimson</span>
             <span class="heart" onclick="like(this)">❤️</span>
           </div>
         </div>
 
+        <!-- Velvet Noir -->
         <div class="card">
           <div class="colors">
             <div
@@ -227,17 +241,21 @@
               <span class="hex">#1B1716</span>
             </div>
           </div>
+
           <iframe
             class="preview"
             src="pages/VelvetNoir/VelvetNoir.html"
           ></iframe>
+
           <div class="info">
             <span>Velvet Noir</span>
             <span class="heart" onclick="like(this)">❤️</span>
           </div>
         </div>
       </div>
+      <h2>Not having responsive websites is a bug.</h2>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

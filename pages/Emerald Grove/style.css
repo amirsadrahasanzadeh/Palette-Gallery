@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fbf6f0;
+  color: #0d3a35;
+}
+
+header {
+  background: #0d3a35;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 22px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #b1b7ab;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 8%;
+  min-height: 90vh;
+}
+
+.text {
+  width: 50%;
+}
+
+.text h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.text span {
+  color: #276152;
+}
+
+.text p {
+  margin: 25px 0;
+  line-height: 2;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  background: #276152;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0d3a35;
+}
+
+.hero-image {
+  width: 430px;
+  height: 430px;
+  border-radius: 25px;
+  background: #276152;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 140px;
+  color: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  text-align: center;
+  margin: 60px 0 40px;
+  font-size: 38px;
+}
+
+.categories {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card .icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #276152;
+  margin-bottom: 10px;
+}
+
+.banner {
+  width: 90%;
+  margin: 80px auto;
+  background: #0d3a35;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.banner h2 {
+  margin-bottom: 15px;
+}
+
+.banner a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 35px;
+  background: #276152;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.tips {
+  width: 90%;
+  margin: 70px auto;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.tip {
+  flex: 1;
+  min-width: 280px;
+  background: #b1b7ab;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+footer {
+  background: #0d3a35;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 60px;
+}

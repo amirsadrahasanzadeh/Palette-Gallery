@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background: #fefaef;
+  color: #182350;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: #182350;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #afd2fa;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 8%;
+  min-height: 85vh;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.hero-text span {
+  color: #b9915e;
+}
+
+.hero-text p {
+  line-height: 2;
+  margin: 25px 0;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background: #182350;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b9915e;
+}
+
+.hero-box {
+  width: 420px;
+  height: 420px;
+  background: #afd2fa;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: #182350;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.features {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  color: #182350;
+  margin-bottom: 15px;
+}
+
+.stats {
+  margin: 70px auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.stat {
+  background: #182350;
+  color: white;
+  text-align: center;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.stat h2 {
+  color: #b9915e;
+  font-size: 40px;
+}
+
+.cta {
+  width: 90%;
+  margin: 80px auto;
+  background: #afd2fa;
+  border-radius: 25px;
+  text-align: center;
+  padding: 60px 30px;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 40px;
+  background: #182350;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 70px;
+  background: #182350;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}

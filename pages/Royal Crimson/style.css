@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background: #fef0d5;
+  color: #002f49;
+}
+
+header {
+  background: #780001;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fef0d5;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 8%;
+  min-height: 80vh;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #780001;
+}
+
+.hero-text p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+button {
+  background: #c1121f;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #780001;
+}
+
+.hero-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  background: #002f49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px 8%;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  color: #780001;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #002f49;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}

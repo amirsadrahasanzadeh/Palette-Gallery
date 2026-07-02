@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Palette Gallery</title>
+  </head>
+
+  <body>
+    <nav>
+      <h2>🎨 Palette Gallery</h2>
+
+      <input id="search" placeholder="جستجو..." />
+
+      <div>
+        <a href="#">خانه</a>
+        <a href="#p">پالت‌ها</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>پالت‌های واقعی با پیش‌نمایش</h1>
+      <p>روی هر رنگ بزن تا کپی بشه</p>
+      <div
+        class="scroll"
+        onclick="document.getElementById('p').scrollIntoView()"
+      >
+        👇 شروع
+      </div>
+    </div>
+
+    <div class="section" id="p">
+      <div class="grid">
+        <!-- 1 AUTUMN EMBER -->
+        <div class="card">
+          <div class="colors">
+            <div
+              class="color"
+              style="background: #3d1202"
+              onclick="copy('#3d1202')"
+            >
+              <span class="hex">#3d1202</span>
+            </div>
+            <div
+              class="color"
+              style="background: #ba3d03"
+              onclick="copy('#ba3d03')"
+            >
+              <span class="hex">#ba3d03</span>
+            </div>
+            <div
+              class="color"
+              style="background: #e58423"
+              onclick="copy('#e58423')"
+            >
+              <span class="hex">#e58423</span>
+            </div>
+            <div
+              class="color"
+              style="background: #e8c581"
+              onclick="copy('#e8c581')"
+            >
+              <span class="hex">#e8c581</span>
+            </div>
+          </div>
+          <iframe class="preview" src="pages/Autumn Ember.html"></iframe>
+          <div class="info">
+            <span>Autumn Ember</span>
+            <span class="heart" onclick="like(this)">❤️</span>
+          </div>
+        </div>
+
+        <!-- 2 ROYAL HORIZON -->
+        <div class="card">
+          <div class="colors">
+            <div
+              class="color"
+              style="background: #182350"
+              onclick="copy('#182350')"
+            >
+              <span class="hex">#182350</span>
+            </div>
+            <div
+              class="color"
+              style="background: #afd2fa"
+              onclick="copy('#afd2fa')"
+            >
+              <span class="hex">#afd2fa</span>
+            </div>
+            <div
+              class="color"
+              style="background: #fefaef"
+              onclick="copy('#fefaef')"
+            >
+              <span class="hex">#fefaef</span>
+            </div>
+            <div
+              class="color"
+              style="background: #b9915e"
+              onclick="copy('#b9915e')"
+            >
+              <span class="hex">#b9915e</span>
+            </div>
+          </div>
+          <iframe class="preview" src="pages/Royal Horizon.html"></iframe>
+          <div class="info">
+            <span>Royal Horizon</span>
+            <span class="heart" onclick="like(this)">❤️</span>
+          </div>
+        </div>
+
+        <!-- 3 EMERALD GROVE -->
+        <div class="card">
+          <div class="colors">
+            <div
+              class="color"
+              style="background: #0d3a35"
+              onclick="copy('#0d3a35')"
+            >
+              <span class="hex">#0d3a35</span>
+            </div>
+            <div
+              class="color"
+              style="background: #276152"
+              onclick="copy('#276152')"
+            >
+              <span class="hex">#276152</span>
+            </div>
+            <div
+              class="color"
+              style="background: #b1b7ab"
+              onclick="copy('#b1b7ab')"
+            >
+              <span class="hex">#b1b7ab</span>
+            </div>
+            <div
+              class="color"
+              style="background: #fbf6f0"
+              onclick="copy('#fbf6f0')"
+            >
+              <span class="hex">#fbf6f0</span>
+            </div>
+          </div>
+          <iframe class="preview" src="pages/Emerald Grove.html"></iframe>
+          <div class="info">
+            <span>Emerald Grove</span>
+            <span class="heart" onclick="like(this)">❤️</span>
+          </div>
+        </div>
+
+        <!-- 4 ROYAL CRIMSON -->
+        <div class="card">
+          <div class="colors">
+            <div
+              class="color"
+              style="background: #780001"
+              onclick="copy('#780001')"
+            >
+              <span class="hex">#780001</span>
+            </div>
+            <div
+              class="color"
+              style="background: #c1121f"
+              onclick="copy('#c1121f')"
+            >
+              <span class="hex">#c1121f</span>
+            </div>
+            <div
+              class="color"
+              style="background: #fef0d5"
+              onclick="copy('#fef0d5')"
+            >
+              <span class="hex">#fef0d5</span>
+            </div>
+            <div
+              class="color"
+              style="background: #002f49"
+              onclick="copy('#002f49')"
+            >
+              <span class="hex">#002f49</span>
+            </div>
+          </div>
+          <iframe class="preview" src="pages/Royal Crimson.html"></iframe>
+          <div class="info">
+            <span>Royal Crimson</span>
+            <span class="heart" onclick="like(this)">❤️</span>
+          </div>
+        </div>
+
+        <!-- 5 VELVET NOIR -->
+        <div class="card">
+          <div class="colors">
+            <div
+              class="color"
+              style="background: #edebde"
+              onclick="copy('#EDEBDE')"
+            >
+              <span class="hex">#EDEBDE</span>
+            </div>
+            <div
+              class="color"
+              style="background: #810100"
+              onclick="copy('#810100')"
+            >
+              <span class="hex">#810100</span>
+            </div>
+            <div
+              class="color"
+              style="background: #630102"
+              onclick="copy('#630102')"
+            >
+              <span class="hex">#630102</span>
+            </div>
+            <div
+              class="color"
+              style="background: #1b1716"
+              onclick="copy('#1B1716')"
+            >
+              <span class="hex">#1B1716</span>
+            </div>
+          </div>
+          <iframe class="preview" src="pages/Velvet Noir.html"></iframe>
+          <div class="info">
+            <span>Velvet Noir</span>
+            <span class="heart" onclick="like(this)">❤️</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
